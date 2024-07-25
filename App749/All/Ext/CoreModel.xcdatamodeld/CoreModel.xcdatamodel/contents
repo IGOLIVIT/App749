@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ResModel" representedClassName="ResModel" syncable="YES" codeGenerationType="class">
+        <attribute name="resDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="resName1" optional="YES" attributeType="String"/>
+        <attribute name="resName2" optional="YES" attributeType="String"/>
+        <attribute name="resPhoto1" optional="YES" attributeType="String"/>
+        <attribute name="resPhoto2" optional="YES" attributeType="String"/>
+        <attribute name="resScore1" optional="YES" attributeType="String"/>
+        <attribute name="resScore2" optional="YES" attributeType="String"/>
+        <attribute name="resTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+</model>
