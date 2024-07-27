@@ -157,7 +157,7 @@ struct StatisticsView: View {
                                             .foregroundColor(.white)
                                             .font(.system(size: 24, weight: .bold))
                                         
-                                        Text("\((index.resDate ?? Date()).convertDate(format: "dd MM"))(\((index.resTime ?? Date()).convertDate(format: "HH:mm")))")
+                                        Text("\((index.resDate ?? Date()).convertDate(format: "dd.MM"))(\((index.resTime ?? Date()).convertDate(format: "HH:mm")))")
                                             .foregroundColor(.white)
                                             .font(.system(size: 16, weight: .regular))
                                         
