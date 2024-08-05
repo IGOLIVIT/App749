@@ -38,7 +38,7 @@ struct TabBar: View {
         .frame(maxWidth: .infinity)
         .padding(.horizontal)
         .padding(.top, 18)
-        .padding(.bottom, 48)
+        .padding(.bottom, 28)
         .background(RoundedRectangle(cornerRadius: 0).fill(Color("bg")))
         .ignoresSafeArea()
     }
